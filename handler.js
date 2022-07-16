@@ -27,17 +27,17 @@ module.exports = {
         global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf"])
         global.img = pickRandom(global.waifu)
         global.fla = pickRandom(global.flaaa)
-        global.namabot = conn.user.name
-        global.packname = global.namabot
-        global.author = global.data.owner
-        //global.author = '𝐉𝐚𝐫𝐨𝐭'
-        global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = '© 𝐀𝐥𝐩𝐢 𝐁𝐨𝐭'
+        global.namabot = Aldi Bot
+        global.packname = Aldi Bot
+        global.author = Aldi bot
+        //global.author = 'Aldi Bot'
+        global.wm2 = Aldi Bot + ' ' + Aldi
+        global.wm = '© Aldi Bot'
         global.colong1 = 'Ciss 📸'
-        global.colong2 = '𝐀𝐥𝐩𝐢 𝑩𝒐𝒕'
+        global.colong2 = 'Aldi Bot'
         global.kontak2 = [
-        ['6285850539404', '𝐉𝐚𝐫𝐨𝐭', '𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true],
-        ['6285713137903', await this.getName('6285713137903@s.whatsapp.net'), '𝑷𝒂𝒓𝒕𝒏𝒆𝒓 𝐀𝐥𝐩𝐢 𝑩𝒐𝒕', 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ', true], 
+        ['628999625005', 'Aldi', 'Group Bot', 'https://chat.whatsapp.com/CVxGqm1TBnRAyqkH4eYGWr', true],
+        ['628999625005', await this.getName('628999625005@s.whatsapp.net'), 'Aldi Bot', 'https://chat.whatsapp.com/CVxGqm1TBnRAyqkH4eYGWr', true], 
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
